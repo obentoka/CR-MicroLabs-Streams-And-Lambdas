@@ -95,8 +95,7 @@ public class StreamFilter {
                 return true;
             else
                 return false;
-        })
-                .toArray(Person[]::new);
+        }).toArray(Person[]::new);
     }
 
 }
